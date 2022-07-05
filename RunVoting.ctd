@@ -1,0 +1,29 @@
+# Read in number of tests, must be between 1 and 100
+INT(20, 100, numtests) NEWLINE
+
+# Check these in case numtests is defined by command line arg
+ASSERT(numtests > 20)
+ASSERT(numtests <= 100)
+
+NEWLINE
+# Loop over each test
+REP(numtests, NEWLINE)
+    # Read in number of candidates
+    INT(1, 20, n) NEWLINE
+    # Read in each name
+    REP(n)
+        REGEX("([ -~]){1,80}\n", name)
+    END
+    WHILEI(b, !(ISEOF || MATCH("\n")) && b != 0 && b >= 100)
+        # Read in preferences
+        REPI(i, n, SPACE)
+            INT(1, n, votes[i])
+            ASSERT(UNIQUE(i))
+        END
+        UNSET(votes)
+        SPACE
+        NEWLINE
+    END
+END
+ASSERT(b > 0)
+ASSERT(b <= 1000)

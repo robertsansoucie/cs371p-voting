@@ -1,0 +1,13 @@
+.DS_Store
+*.gcda
+*.gcno
+*.gcov
+*.plist
+*.tmp
+collatz-tests
+CS371p-Collatz.bbprojectd
+Doxyfile
+Icon?
+latex
+RunCollatz
+TestCollatz

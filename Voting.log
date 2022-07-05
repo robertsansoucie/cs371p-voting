@@ -1,0 +1,103 @@
+commit 4593302cdfcdf77263adaaf6a833ca4a3e62d7af
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Mon Mar 1 00:02:53 2021 -0600
+
+    Run doxygen
+
+commit 24e24e23ad02be55bd08074db38f0159007cbaea
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 23:59:27 2021 -0600
+
+    Add some more comments to Voting.cpp
+
+commit 7b8ff81dfac2662bafb380fdabc2b9d99b79d8d6
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 23:51:25 2021 -0600
+
+    Run astyle, fix a few semicolons in Voting.hpp
+
+commit b79b8406501f0ba3bf17174c4958d29498665f21
+Merge: e769549 8906811
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 23:47:31 2021 -0600
+
+    Merge branch 'master' of https://gitlab.com/robertsansoucie/voting
+    Pulling onto cs machine from local machine
+
+commit e769549aa6a321a4fd35e4df876100631d75e79d
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 23:45:55 2021 -0600
+
+    Test case stuff
+
+commit 8906811412e49e9acc8df7c3af88306d0c21afbe
+Author: Robert San Soucie <robertsansoucie@gmail.com>
+Date:   Sun Feb 28 23:43:18 2021 -0600
+
+    Add documentation to Voting.hpp
+
+commit 4e09bf39ca0dfa48d86e3ba4907a60c5069f7654
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 21:31:16 2021 -0600
+
+    Add 20 unit tests, begin to fill in Voting.hpp
+
+commit 2cc31d20b52ea3e133b34318bff8f8379cc9d402
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 19:41:25 2021 -0600
+
+    Add in optimization for not searching over every ballot
+
+commit 466fdb9ca49c11040cc760ace5059d0bd3312210
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 17:15:58 2021 -0600
+
+    Passing all the hackerrank tests awooooooh
+
+commit 1ebf5cd236ef29fb8b68365eb5cfc1c7ec59b84c
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 16:04:20 2021 -0600
+
+    Passing Hackerrank test case #1
+
+commit 7a2687efec1a664db5a798a91b380a7efecc848c
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 14:59:51 2021 -0600
+
+    Fix missing bracket in Voting.cpp
+
+commit 5ff29fb6785712434511f0c2455a277dce4961ce
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sun Feb 28 14:54:47 2021 -0600
+
+    Working solution for hacker rank test 1 (sorry this is too big of a commit, I apologize
+
+commit 936ce833cbc870ec35ec66d197ac21d556e2be9c
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Sat Feb 27 18:38:30 2021 -0600
+
+    Get basic files and code up, add the first test to TestVoting (from hackerrank)
+
+commit 09979b16d3e3b02551bbe8e87d2f970ac3f36b34
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Thu Feb 25 17:15:00 2021 -0600
+
+    Updated makefile for voting
+
+commit b51fcb334e5abddf329d4a056b9222c146894297
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Thu Feb 25 17:06:43 2021 -0600
+
+    Add files for code and testing
+
+commit cfe1a3b31b15814c4d884ca644c6d980e2630c74
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Thu Feb 25 16:57:50 2021 -0600
+
+    Get build files from collatz, modify README
+
+commit 4fe3b4839cd3f87dac5dc318cdb4fa365375de6c
+Author: Robert San Soucie <robertss@cs.utexas.edu>
+Date:   Thu Feb 25 16:40:32 2021 -0600
+
+    Initial commit
